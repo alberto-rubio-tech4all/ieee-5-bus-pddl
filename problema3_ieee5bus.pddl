@@ -34,12 +34,12 @@
     (= (energia-en-ubicacion bus4) 0.0)
     (= (energia-en-ubicacion bus5) 0.0)
     ; Tipos de tension de los generadores
-    (puede-ofrecer bus1 alta)
-    (puede-recibir bus1 alta)
+    (puede-ofrecer bus1 media)
+    (puede-recibir bus1 media)
     (puede-ofrecer bus2 alta)
     (puede-recibir bus2 alta)
-    (puede-ofrecer bus3 media)
-    (puede-recibir bus3 media)
+    (puede-ofrecer bus3 alta)
+    (puede-recibir bus3 alta)
     ; Tipos de tension de las cargas
     (puede-ofrecer bus4 baja)
     (puede-recibir bus4 baja)

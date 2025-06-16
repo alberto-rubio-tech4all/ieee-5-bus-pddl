@@ -32,6 +32,12 @@
     (puede-ofrecer bus5 baja)
     (puede-recibir bus5 baja)
 
+    ; Tipos de tensión de los neutros
+    (puede-ofrecer bus1 baja)
+    (puede-recibir bus1 baja)
+    (puede-ofrecer bus4 baja)
+    (puede-recibir bus4 baja)        
+
     ; Tipos de tension los transformadores
     (puede-ofrecer bus3 baja)
     (puede-recibir bus3 alta)

@@ -1,7 +1,7 @@
 (define (problem ieee-5-bus-problema-2) (:domain planificacion-red-electrica)
 (:objects 
     bus1 bus2 bus3 bus4 bus5 - ubicacion
-    alta media baja - tension
+    alta baja - tension
 )
 
 (:init
@@ -11,7 +11,7 @@
     (es-carga bus3)
     (es-carga bus5)
     (= (capacidad-tension alta) 1000.0)
-    (= (capacidad-tension media) 1000.0)
+    ;(= (capacidad-tension media) 1000.0)
     (= (capacidad-tension baja) 1000.0)
     (= (generacion-disponible bus1) 40.4)
     (= (generacion-disponible bus2) 100.0)
@@ -37,8 +37,8 @@
     ; Tipos de tension de las cargas
     (puede-ofrecer bus3 baja)
     (puede-recibir bus3 baja)
-    (puede-ofrecer bus4 baja)
-    (puede-recibir bus4 baja)
+    ;(puede-ofrecer bus4 baja)
+    ;(puede-recibir bus4 baja)
     (puede-ofrecer bus5 baja)
     (puede-recibir bus5 baja)
 

@@ -83,6 +83,7 @@
     :parameters (?u - ubicacion)
     :precondition (and 
         (es-generador ?u)
+        (not (generador-activo ?u))
     )
     :effect (and 
         (increase (energia-en-ubicacion ?u) (generacion-disponible ?u))
